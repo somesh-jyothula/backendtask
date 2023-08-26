@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Operations Server</title>
+</head>
+
+<body>
+    <h1>Math Operations Server</h1>
+    <h2>Available Endpoints:</h2>
+    <ul>
+        {% for endpoint in endpoints %}
+        <li><a href="{{ endpoint }}">{{ endpoint }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
